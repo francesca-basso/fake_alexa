@@ -41,7 +41,7 @@ def digital_assistant(data):
         
     if "stop listening" in data:
         listening = False
-        respond("Glad to be of servie")
+        respond("Glad to be of service")
 
     if "where is" in data:
         listening = True
